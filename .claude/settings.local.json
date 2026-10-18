@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx prisma db push:*)",
+      "Bash(npx next build --experimental-build-mode compile)",
+      "Bash(npm install:*)",
+      "Bash(npx prisma db seed:*)",
+      "Bash(npm run dev:*)",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "Bash(npm run test:quick:*)",
+      "Bash(npm run test:api:*)",
+      "Bash(npx prisma generate:*)",
+      "Bash(curl:*)",
+      "Bash(npx tsx:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(cat:*)",
+      "Bash(findstr:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx tsc:*)",
+      "Bash(dir /s /b \"c:\\\\Users\\\\leeswitch\\\\Desktop\\\\dogmai-cohort-v2\\\\src\\\\app\\\\api\\\\*.ts\")",
+      "Bash(dir /b \"c:\\\\Users\\\\leeswitch\\\\Desktop\\\\dogmai-cohort-v2\\\\src\\\\lib\")",
+      "Bash(npm run test:run:*)",
+      "Bash(dir /b \"c:\\\\Users\\\\leeswitch\\\\Desktop\\\\dogmai-cohort-v2\\\\public\\\\fonts\")",
+      "Bash(dir /s /b \"c:\\\\Users\\\\leeswitch\\\\Desktop\\\\dogmai-cohort-v2\\\\public\\\\fonts\")",
+      "Bash(npm run db:reset:*)",
+      "Bash(ls -la \"C:\\\\Users\\\\leeswitch\\\\Desktop\\\\dogmai-cohort-v2\\\\prisma\"\" 2>/dev/null || dir \"C:UsersleeswitchDesktopdogmai-cohort-v2prisma\"\")",
+      "Bash(sqlite3:*)",
+      "Bash(npx prisma studio:*)",
+      "Bash(node:*)",
+      "Bash(del \"c:\\\\Users\\\\leeswitch\\\\Desktop\\\\dogmai-cohort-v2\\\\debug-unread.ts\")",
+      "Bash(ls:*)",
+      "Bash(npm ls:*)",
+      "Bash(npx prisma migrate diff:*)"
+    ]
+  }
+}
